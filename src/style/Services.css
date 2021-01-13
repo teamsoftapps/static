@@ -1,0 +1,165 @@
+@font-face{
+    src: url(../fonts/ufonts.com_aargau-regular.ttf);
+    font-family: myFirstFont;
+}
+@font-face{
+    src: url(../fonts/Gotham-Light.otf);
+    font-family: mysecondfont;
+}
+@font-face {
+    src: url(../fonts/Gotham-Bold.otf);
+    font-family: myThirdFont;
+}
+@font-face{
+    src: url(../fonts/Arial\ regular.ttf);
+    font-family: arial-regular;
+}
+@font-face{
+    src: url(../fonts/Great\ Day\ Personal\ Use.ttf);
+    font-family: greatday;
+}
+@font-face{
+    src: url(../fonts/GothamMedium.ttf);
+    font-family: gothamMedium;
+
+}
+@font-face{
+    src: url(../fonts/Aargau-Medium.ttf);
+    font-family: argau-medium;
+}
+.services{
+    margin-bottom: 50px;
+    transition: .4s ease;
+}
+.our-heading{
+    color: #000000;
+    font-size: 35px;
+    font-family: myThirdFont;
+}
+.services-heading{
+    margin-top: -10px;
+    letter-spacing: 5px;
+ font-size: 54px;
+ font-family: myFirstFont;
+ color: #DF3D3D;
+}
+.services-para{
+    color: #000000;
+    font-size: 16px;
+    font-family: arial-regular;
+}
+.portfolio-image{
+    margin-top: 80px;
+}
+.play{
+    margin-bottom: 100px;
+}
+.services-para{
+font-size: 28px;
+line-height: 40px;
+font-weight: 600;    
+font-family: mySecondFont;
+margin: 10px 0 40px  0;
+}
+.btn{
+    width: 200px;
+    padding: 20px 10px;
+    font-size: larger;
+}
+.section{
+    margin-bottom: 50px ;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 0 50px;
+    max-width: 500px;
+    width: 90vw;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0,0.4);
+    padding: 20px;
+    border-radius: 5px;
+}
+.section h2{
+    letter-spacing: 3px;
+    font-size: 36px;
+    color: #362869;
+}
+.section h3{
+    color: #434343;
+
+}
+.section p{
+    color: gray;
+}
+.arrow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.arrow a{
+    font-weight: 900;
+    font-size: 28px;
+    color: #362869;
+}
+.section button{
+    border: none ;
+    outline: none ;
+    background-color: #efefef;
+    color: #362869;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.section img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+.btn{
+    font-size: 30px;
+}
+@media (max-width:1200px){
+    .our-services{
+        font-size: 24px;
+    }        
+}
+
+@media (max-width:900px){
+    .services p{
+        font-size: 22px;
+    }
+    .btn{
+        width: 120px;
+        padding: 15px 10px;
+        font-size: 22px;
+    }
+    .our-heading{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .services-heading{
+        font-size: 46px;
+    }
+}
+@media (max-width:400px){
+    .services p{
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .btn{
+        width: 100px;
+        padding: 15px 10px;
+        font-size: 20px;
+    }
+    .our-heading{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .services-heading{
+        font-size: 40px;
+    }
+
+}
+
+

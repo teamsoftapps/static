@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../images/Logo.png";
 import "../style/Header.css";
 import { Tune } from "@material-ui/icons";
@@ -6,7 +6,14 @@ import { IconButton } from "@material-ui/core";
 
 function Header() {
     const [show, setShow] = useState(false);
-    console.log(show);
+
+    useEffect(() => {
+        window.addEventListener("resize", () => {
+            if (window.innerWidth > 991) {
+                setShow(false);
+            }
+        });
+    }, []);
 
     return (
         <div className={`${show ? "header__show" : "header__hide"} `}>
@@ -59,5 +66,3 @@ function Header() {
 }
 
 export default Header;
-
-softapps.io8080;
