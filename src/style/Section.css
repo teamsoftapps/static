@@ -38,34 +38,36 @@
     text-align: justify;
 }
 .digitialization {
-    flex: .9;
-    font-size: 30px;
+    flex: .5;
+    font-size: 24px;
     transition: .5s ease;
+    width: 40%;
 }
 .digi-head{
+    font-size: 74px;
     font-family: myFirstFont;
     color: #DF3D3D;
 }
 .make-your-future{
-    font-family: myThirdFont;
-    font-weight: 700;
-   font-size: 28px;
+    font-family: mySEcondFont;
+   font-size: 26px;
    line-height: 9px;
    margin-top: 15px;   
-   color: #362869;
+
 }
 .digitia-para {
     color: #000000;
     margin-top: 23px;
     font-weight: 400;
+    font-size: 16px;
 }
 .btn-explore{
-    padding: 10px 0;
+    padding: 5px 10px;
     display: block;
     color: #ffffff;
     background: #362869;
     border: 2px solid #362869;
-    width: 300px;
+    width: 200px;
     font-weight: 500;
     border-radius: 8px;
     text-align: center;
@@ -77,10 +79,10 @@
     color: #362869;
 }
 .play-img {
-    margin-bottom: -80px;
+    margin-bottom: -60px;
     margin-left: 10px;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 .image-paly-section {
     display: flex;
@@ -92,8 +94,13 @@
     background: #362869;
 }
 .digital-image img{
-    width: 500px;
+    width: 40vw;
 }
+.btn{
+    margin-top: -20px;
+}
+
+
 
 @media (max-width:1200px){
     .digitialization {
@@ -125,7 +132,10 @@
         width: 80%;
     }
     .digitialization {
-        font-size: 24px;
+        width: 80vw;
+    }
+    .digi-head{
+        font-size: 38px;
     }
     .make-your-future{
         font-size: 20px;
@@ -148,6 +158,9 @@
 @media (max-width:400px){
     .digitialization {
         font-size: 16px;
+    }
+    .digi-head{
+        font-size: xx-large;
     }
     .make-your-future{
         font-size: 5vw;

@@ -11,11 +11,11 @@ function Section() {
                     <h1 class="digi-head">Digitialization</h1>
                     <h2 class="make-your-future">MAKE YOUR FUTURE DIGITAL</h2>
                     <p class="digitia-para">
-                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will
-                        give you a complete account of the system, and.
+                        SoftApps.io is a Canadian-based sofware development company, with branches extended to the US and Pakistan. We are a
+                        complete cycle application development company.
                     </p>
                     <img src={PlayButton} height="60px" width="60px" class="position-absolute play-img" alt="" />
-                    <a href="#play-image" class=" btn-explore">
+                    <a href="#play-image" class="btn-explore">
                         Explore
                     </a>
                 </div>

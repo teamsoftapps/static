@@ -20,7 +20,7 @@ function Header() {
             <div className="header__nav">
                 <div className="header__left">
                     <a href="/">
-                        <img src={Logo} alt="SoftApps" />
+                        <img className="logo" src={Logo} alt="SoftApps" />
                     </a>
                     <ul className="header__sections">
                         <li>

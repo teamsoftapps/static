@@ -27,10 +27,19 @@
     src: url(../fonts/Aargau-Medium.ttf);
     font-family: argau-medium;
 }
-.services{
+/* .services{
     margin-bottom: 50px;
     transition: .4s ease;
-}
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+/* .our-services{
+    flex: .1;
+} */
 .our-heading{
     color: #000000;
     font-size: 35px;
@@ -39,7 +48,7 @@
 .services-heading{
     margin-top: -10px;
     letter-spacing: 5px;
- font-size: 54px;
+ font-size: 65px;
  font-family: myFirstFont;
  color: #DF3D3D;
 }
@@ -75,6 +84,7 @@ margin: 10px 0 40px  0;
     max-width: 500px;
     width: 90vw;
     box-sizing: border-box;
+    background: white;
     box-shadow: 2px 4px 6px rgba(0, 0, 0,0.4);
     padding: 20px;
     border-radius: 5px;
@@ -101,7 +111,20 @@ margin: 10px 0 40px  0;
     font-size: 28px;
     color: #362869;
 }
-.section button{
+.button{
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 10px  0;
+}
+.services__image{
+    max-width: 1200px;
+    width: 95vw;
+    min-width: 320px;
+}
+
+
+
+/* .section button{
     border: none ;
     outline: none ;
     background-color: #efefef;
@@ -118,8 +141,8 @@ margin: 10px 0 40px  0;
 }
 .btn{
     font-size: 30px;
-}
-@media (max-width:1200px){
+} */
+/* @media (max-width:1200px){
     .our-services{
         font-size: 24px;
     }        
@@ -162,4 +185,4 @@ margin: 10px 0 40px  0;
 
 }
 
-
+ */

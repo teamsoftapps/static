@@ -6,6 +6,7 @@ import Android from "../images/Android.png";
 import diamond from "../images/dianond.png";
 import ang from "../images/ANGYLAR.png";
 import { useState } from "react";
+import ServicesImage from "../images/Services.png";
 
 const team = [
     {
@@ -40,41 +41,45 @@ const team = [
 ];
 
 function Team() {
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
 
-    const handleRandom = () => {
-        setIndex(Math.round(Math.random() * (team.length - 1)));
-    };
+    // const handleRandom = () => {
+    //     setIndex(Math.round(Math.random() * (team.length - 1)));
+    // };
 
-    const handleIncrement = () => {
-        if (index === team.length - 1) {
-            setIndex(0);
-        } else {
-            setIndex(index + 1);
-        }
-    };
-    const handleDecrement = () => {
-        if (index === 0) {
-            setIndex(team.length - 1);
-        } else {
-            setIndex(index - 1);
-        }
-    };
+    // const handleIncrement = () => {
+    //     if (index === team.length - 1) {
+    //         setIndex(0);
+    //     } else {
+    //         setIndex(index + 1);
+    //     }
+    // };
+    // const handleDecrement = () => {
+    //     if (index === 0) {
+    //         setIndex(team.length - 1);
+    //     } else {
+    //         setIndex(index - 1);
+    //     }
+    // };
 
     return (
         <div class="row services">
             <div class="our-services">
                 <h2 class="our-heading">OUR</h2>
-                <h1 class="services-heading">TEAM</h1>
-                <p class="services-para">
+                <h1 class="services-heading">SERVICES</h1>
+                <p class="digitia-para">
                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give
                     you a complete account of the system, and.
                 </p>
-                <a href="#testimonals" class="btn btn-explore">
+                <a href="#testimonals" class="button btn-explore">
                     Explore
                 </a>
             </div>
-            <section className="section">
+            <img className="services__image" src={ServicesImage} />
+            {/* <div className="">
+
+            </div> */}
+            {/* <section className="section">
                 <img src={team[index].image} alt="" />
                 <h3>{team[index].name}</h3>
                 <h2>{team[index].desig}</h2>
@@ -90,7 +95,7 @@ function Team() {
                     </button>
                 </div>
                 <button onClick={handleRandom}>Random</button>
-            </section>
+            </section> */}
         </div>
     );
 }

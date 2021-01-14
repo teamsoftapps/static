@@ -21,6 +21,10 @@
     font-size:medium;
     margin-top: -3px;
 }
+.logo{
+    width: 150px;
+    margin-left: 40px;
+}
 .header__sections > li {
     margin-left: 20px;
     transition: opacity .3s ease;
@@ -32,9 +36,6 @@
     color: white;
     font-size: 45px  !important;
 }
-.header__sections > li{
-    display: block;
-}
 .header__button{
     display: flex;
     height: 75px;
@@ -43,20 +44,24 @@
 }
 .header__res{
     margin-top: -10px;
-    margin-left:10px ;
 }
 .header__res li{
+    font-size: larger;
+    text-align: center;
     padding: 10px;
+    line-height: normal;
+    transition: background .2s ease;
 }
-
+.header__res li:hover{
+    background-color: rgba(0, 0, 0, .3);
+}
 .header__show{
-    height: 300px;
+    height: 350px;
     animation: show .5s forwards;
     background: linear-gradient(to right,#282B73,#562253,#7D1A39,#991526,#AA121B,#B01117);
     position: sticky;
     top: 0;    
     box-shadow: 2px 4px 6px rgba(0, 0, 0, .4);
-
 }
 .header__hide{
     overflow-y:  hidden;
@@ -79,10 +84,10 @@
 
 @keyframes show{
     0%{height: 85px};
-    100%{height: 300px}
+    100%{height: 350px}
 }
 @keyframes hide{
-    0%{height: 300px};
+    0%{height: 350px};
     100%{height: 85px}
 }
 
