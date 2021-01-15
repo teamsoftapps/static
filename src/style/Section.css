@@ -56,7 +56,8 @@
 
 }
 .digitia-para {
-    color: #000000;
+    font-size: large;
+    color: #454545;
     margin-top: 23px;
     font-weight: 400;
     font-size: 16px;
@@ -123,7 +124,7 @@
     }            
 }
 
-@media (max-width:900px){
+@media (max-width:1020px){
     .row{
         flex-direction: column;
         align-items: center;
@@ -135,11 +136,14 @@
         width: 80vw;
     }
     .digi-head{
-        font-size: 38px;
+        font-size: 50px;
     }
     .make-your-future{
-        font-size: 20px;
+        font-size: 22px;
     }        
+    .digitia-para{
+        font-size: 20px;
+    }
     .play-img {
         margin-bottom: -65px;
         margin-left: 5px;
@@ -152,18 +156,21 @@
         margin-bottom: 70px;
     }
     .digital-image img{
-        width: 80vw;
+        width: 75vw;
     }            
 }
-@media (max-width:400px){
+@media (max-width:410px){
     .digitialization {
         font-size: 16px;
     }
     .digi-head{
-        font-size: xx-large;
+        font-size: 40px;
     }
     .make-your-future{
         font-size: 5vw;
+    }
+    .digitia-para{
+        font-size: 4vw;
     }        
     .play-img {
         margin-bottom: -55px;

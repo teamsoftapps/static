@@ -1,3 +1,6 @@
-.App{
+HTML {
+    scroll-behavior: smooth;
+}
+.App {
     background: #f9f9f9;
-}  
+}

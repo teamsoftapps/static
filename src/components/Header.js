@@ -24,19 +24,22 @@ function Header() {
                     </a>
                     <ul className="header__sections">
                         <li>
-                            <a href="/">Home </a>
+                            <a href="/#home">Home </a>
                         </li>
                         <li>
-                            <a href="/">Services</a>
+                            <a href="#services">Services</a>
                         </li>
                         <li>
-                            <a href="/">Portfolio</a>
+                            <a href="#about">About Us </a>
                         </li>
                         <li>
-                            <a href="/">About Us </a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a href="/">Contacts</a>
+                            <a href="#career">Career </a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -46,19 +49,35 @@ function Header() {
             </div>
             <ul className="header__res">
                 <li>
-                    <a href="/">Home </a>
+                    <a onClick={() => setShow(false)} href="/#home">
+                        Home{" "}
+                    </a>
                 </li>
                 <li>
-                    <a href="/">Services</a>
+                    <a onClick={() => setShow(false)} href="#services">
+                        Services
+                    </a>
                 </li>
                 <li>
-                    <a href="/">Portfolio</a>
+                    <a onClick={() => setShow(false)} href="#about">
+                        About Us{" "}
+                    </a>
+                </li>
+
+                <li>
+                    <a onClick={() => setShow(false)} href="#portfolio">
+                        Portfolio
+                    </a>
                 </li>
                 <li>
-                    <a href="/">About Us </a>
+                    <a onClick={() => setShow(false)} href="#career">
+                        Career
+                    </a>
                 </li>
                 <li>
-                    <a href="/">Contacts</a>
+                    <a onClick={() => setShow(false)} href="#contacts">
+                        Contact Us
+                    </a>
                 </li>
             </ul>
         </div>
