@@ -51,6 +51,9 @@
     line-height: normal;
     transition: background 0.2s ease;
 }
+.header__res li a {
+    display: block;
+}
 .header__res li:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }

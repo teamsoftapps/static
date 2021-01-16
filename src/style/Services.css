@@ -1,8 +1,8 @@
-@font-face{
+@font-face {
     src: url(../fonts/ufonts.com_aargau-regular.ttf);
     font-family: myFirstFont;
 }
-@font-face{
+@font-face {
     src: url(../fonts/Gotham-Light.otf);
     font-family: mysecondfont;
 }
@@ -10,54 +10,52 @@
     src: url(../fonts/Gotham-Bold.otf);
     font-family: myThirdFont;
 }
-@font-face{
+@font-face {
     src: url(../fonts/Arial\ regular.ttf);
     font-family: arial-regular;
 }
-@font-face{
+@font-face {
     src: url(../fonts/Great\ Day\ Personal\ Use.ttf);
     font-family: greatday;
 }
-@font-face{
+@font-face {
     src: url(../fonts/GothamMedium.ttf);
     font-family: gothamMedium;
-
 }
-@font-face{
+@font-face {
     src: url(../fonts/Aargau-Medium.ttf);
     font-family: argau-medium;
-
 }
-.services{
+.services {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1400px;
     width: 90vw;
     margin: auto;
-    margin: 50px auto;
-    transition: .5s ease;
-    text-align: justify;
+    /* change here */
+    /* margin: 50px auto; */
+    transition: 0.5s ease;
 }
 .our__services {
     max-width: 500px;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
-.our__services h2{
-   font-size: 40px;
-   line-height: 9px;
-   margin-top: 15px;   
+.our__services h2 {
+    font-size: 40px;
+    line-height: 9px;
+    margin-top: 15px;
 }
-.our__services h1{
+.our__services h1 {
     font-size: 74px;
     font-family: myFirstFont;
-    color: #DF3D3D;
+    color: #df3d3d;
 }
-.our__services p{
+.our__services p {
     font-size: large;
     color: #454545;
 }
-.our__services button{
+.our__services button {
     margin: 10px 0;
     font-size: x-large;
     padding: 10px 40px;
@@ -69,74 +67,72 @@
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
-    transition: background .4s ease;
+    transition: background 0.4s ease;
 }
-.our__services button:hover{
+.our__services button:hover {
     background: transparent;
     color: #362869;
 }
-.services img{
+.services img {
     width: 50vw;
-    margin: 20px 0;
-} 
-.services__image > img{
-    width: 65vw;
-
+    /* change here */
+    /* margin: 20px auto; */
 }
-@media (max-width:1200px){
+.services__image > img {
+    width: 65vw;
+}
+@media (max-width: 1200px) {
     .our__services {
         width: 80vw;
     }
 }
 
-@media (max-width:1020px){
-    .services{
+@media (max-width: 1020px) {
+    .services {
         flex-direction: column;
         align-items: center;
         margin: auto;
-        margin-top: 70px;
+        margin-top: 40px;
         width: 80%;
     }
     .our__services {
         max-width: 80vw;
     }
-    .our__services h1{
-        margin-top: 10px ;
+    .our__services h1 {
+        margin-top: 10px;
         font-size: 55px;
     }
-    button{
-        padding: 10px;
+    .our__services button {
         margin-bottom: 70px;
     }
-     .services img{
+    .services img {
         width: 90vw;
         min-width: 300px;
-    }            
+    }
 }
-@media (max-width:410px){
-    .our__services h1{
+@media (max-width: 410px) {
+    .our__services h1 {
         font-size: 40px;
         margin: 0;
     }
-    .our__services h2{
+    .our__services h2 {
         font-size: 7vw;
     }
-    .our__services p{
+    .our__services p {
         font-size: 4vw;
-    }        
+    }
     .play-img {
         margin-bottom: -55px;
         margin-left: 10px;
         width: 55px;
         height: 55px;
     }
-    .our__services button{
-        padding:  10px 30px;
+    .our__services button {
+        padding: 10px 30px;
         font-size: medium;
         margin-bottom: 50px;
     }
-    .digital-image img{
+    .digital-image img {
         width: 80vw;
-    }            
+    }
 }
-

@@ -24,20 +24,3 @@ function Services({ title, sub, para, image, isLarge, id }) {
 }
 
 export default Services;
-
-{
-    /* <div class="row services">
-<div class="our-services">
-    <h2 class="our-heading">OUR</h2>
-    <h1 class="services-heading">SERVICES</h1>
-    <p class="digitia-para">
-        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give
-        you a complete account of the system, and.
-    </p>
-    <a href="#testimonals" class="button btn-explore">
-        Explore
-    </a>
-</div>
-<img className="services__image" src={ServicesImage} />
-</div> */
-}

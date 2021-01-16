@@ -19,12 +19,12 @@ function Header() {
         <div className={`${show ? "header__show" : "header__hide"} `}>
             <div className="header__nav">
                 <div className="header__left">
-                    <a href="/">
+                    <a href="#home">
                         <img className="logo" src={Logo} alt="SoftApps" />
                     </a>
                     <ul className="header__sections">
                         <li>
-                            <a href="/#home">Home </a>
+                            <a href="#home">Home </a>
                         </li>
                         <li>
                             <a href="#services">Services</a>

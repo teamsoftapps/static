@@ -1,26 +1,24 @@
-
- .contact{
-    max-width:  calc(90vw  - 50px);
-    height: calc( 85vh  );
+.contact {
+    max-width: calc(90vw - 50px);
+    height: calc(85vh);
     padding: 2rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background: url('../images/Contact.png') right no-repeat;
+    background: url("../images/Contact.png") right no-repeat;
     background-size: contain;
     margin-left: auto;
     margin-top: 66px;
-    text-align: justify;
 }
-.HomeWidth{
+.HomeWidth {
     width: 40%;
     display: flex;
     margin-left: -80px;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
 
-
-.LeftDiv h1 ,.LeftDiv span{
+.LeftDiv h1,
+.LeftDiv span {
     font-family: var(--aargau) !important;
     font-size: calc(2.2vw + 2.2vh + 2.2vmin);
     color: var(--secondary-red);
@@ -32,8 +30,8 @@
     color: black;
 }
 
-.LeftDiv a{
-    padding:  .7rem 3rem ;
+.LeftDiv a {
+    padding: 0.7rem 3rem;
     border-radius: 8px;
     font-weight: bold;
     color: white;
@@ -41,69 +39,70 @@
     font-size: 1.2rem;
     cursor: pointer;
     display: block;
-    border: 2px solid var(--primary-purple  );
-    transition: .5s ease;
+    border: 2px solid var(--primary-purple);
+    transition: 0.5s ease;
     width: fit-content;
     margin-left: auto;
     margin-right: -41px;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
-.LeftDiv a:hover{
+.LeftDiv a:hover {
     background: transparent;
     color: var(--primary-purple);
 }
-.Form input ,textarea{
-    padding: 20px ;
+.Form input,
+textarea {
+    padding: 20px;
     width: 100%;
     border-radius: 10px;
     border: none;
     margin: 5px auto;
     border: 1px solid gray;
-    box-shadow: 5px 10px 15px  rgba(0, 0,0,.1);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
 }
-.Form textarea{
+.Form textarea {
     height: 100px;
-
 }
-@media (max-width:950px){
-    .contact{
+@media (max-width: 950px) {
+    .contact {
         width: 100vw;
-        margin-top: 0;     
-        margin: auto;   
+        margin: 20px auto;
         background: #f4f4f4;
         padding-bottom: 0;
         border-radius: 20px;
     }
-    .HomeWidth{
+    .HomeWidth {
         width: 80%;
         margin: auto;
         margin-left: 0px;
-    }   
-    .HomeWidth p{
+    }
+    .HomeWidth p {
         width: 65vw;
         font-size: large;
         color: #454545;
     }
-    .LeftDiv a{
+    .LeftDiv a {
         font-size: large;
-        padding: .7rem 2.5rem;
+        padding: 0.7rem 2.5rem;
     }
 }
-@media (max-width:550px){
-    .contact{
+@media (max-width: 550px) {
+    .contact {
+        margin: 20px auto;
         height: 70vh;
     }
-    .Form input ,textarea{
+    .Form input,
+    textarea {
         padding: 10px;
     }
-.LeftDiv a{
-    margin-right: -21px;
-    font-size: medium;
-    padding: .5rem 2rem;
-}
-    .HomeWidth p{
-    width: 65vw;
-    font-size: 14px;
-    color: #454545;
-}
+    .LeftDiv a {
+        margin-right: -21px;
+        font-size: medium;
+        padding: 0.5rem 2rem;
+    }
+    .HomeWidth p {
+        width: 65vw;
+        font-size: 14px;
+        color: #454545;
+    }
 }

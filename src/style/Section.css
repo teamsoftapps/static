@@ -1,8 +1,8 @@
-@font-face{
+@font-face {
     src: url(../fonts/ufonts.com_aargau-regular.ttf);
     font-family: myFirstFont;
 }
-@font-face{
+@font-face {
     src: url(../fonts/Gotham-Light.otf);
     font-family: mysecondfont;
 }
@@ -10,50 +10,47 @@
     src: url(../fonts/Gotham-Bold.otf);
     font-family: myThirdFont;
 }
-@font-face{
+@font-face {
     src: url(../fonts/Arial\ regular.ttf);
     font-family: arial-regular;
 }
-@font-face{
+@font-face {
     src: url(../fonts/Great\ Day\ Personal\ Use.ttf);
     font-family: greatday;
 }
-@font-face{
+@font-face {
     src: url(../fonts/GothamMedium.ttf);
     font-family: gothamMedium;
-
 }
-@font-face{
+@font-face {
     src: url(../fonts/Aargau-Medium.ttf);
     font-family: argau-medium;
 }
-.row{
+.row {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1300px;
     width: 90vw;
-    text-align: justify;
 }
 .digitialization {
-    flex: .5;
+    flex: 0.5;
     font-size: 24px;
-    transition: .5s ease;
+    transition: 0.5s ease;
     width: 40%;
 }
-.digi-head{
+.digi-head {
     font-size: 74px;
     font-family: myFirstFont;
-    color: #DF3D3D;
+    color: #df3d3d;
 }
-.make-your-future{
+.make-your-future {
     font-family: mySEcondFont;
-   font-size: 26px;
-   line-height: 9px;
-   margin-top: 15px;   
-
+    font-size: 26px;
+    line-height: 9px;
+    margin-top: 15px;
 }
 .digitia-para {
     font-size: large;
@@ -62,7 +59,7 @@
     font-weight: 400;
     font-size: 16px;
 }
-.btn-explore{
+.btn-explore {
     padding: 5px 10px;
     display: block;
     color: #ffffff;
@@ -73,9 +70,9 @@
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
-    transition: background .4s ease;
+    transition: background 0.4s ease;
 }
-.btn-explore:hover{
+.btn-explore:hover {
     background: transparent;
     color: #362869;
 }
@@ -91,57 +88,55 @@
     align-items: center;
     margin-top: 100px;
 }
-.footer-bg{
+.footer-bg {
     background: #362869;
 }
-.digital-image img{
+.digital-image img {
     width: 40vw;
 }
-.btn{
+.btn {
     margin-top: -20px;
 }
 
-
-
-@media (max-width:1200px){
+@media (max-width: 1200px) {
     .digitialization {
         font-size: 24px;
     }
-    .make-your-future{
+    .make-your-future {
         font-size: 24px;
-    }        
+    }
     .play-img {
         margin-bottom: -70px;
         margin-left: 10px;
         width: 70px;
         height: 70px;
     }
-    .btn-explore{
+    .btn-explore {
         width: 250px;
     }
-    .digital-image img{
+    .digital-image img {
         width: 400px;
-    }            
+    }
 }
 
-@media (max-width:1020px){
-    .row{
+@media (max-width: 1020px) {
+    .row {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         margin: auto;
-        margin-top: 70px;
+        margin-top: 20px;
         width: 80%;
     }
     .digitialization {
         width: 80vw;
     }
-    .digi-head{
+    .digi-head {
         font-size: 50px;
     }
-    .make-your-future{
+    .make-your-future {
         font-size: 22px;
-    }        
-    .digitia-para{
+    }
+    .digitia-para {
         font-size: 20px;
     }
     .play-img {
@@ -150,41 +145,40 @@
         width: 65px;
         height: 65px;
     }
-    .btn-explore{
+    .btn-explore {
         padding: 10px;
         width: 200px;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
     }
-    .digital-image img{
+    .digital-image img {
         width: 75vw;
-    }            
+    }
 }
-@media (max-width:410px){
+@media (max-width: 410px) {
     .digitialization {
         font-size: 16px;
     }
-    .digi-head{
+    .digi-head {
         font-size: 40px;
     }
-    .make-your-future{
+    .make-your-future {
         font-size: 5vw;
     }
-    .digitia-para{
+    .digitia-para {
         font-size: 4vw;
-    }        
+    }
     .play-img {
         margin-bottom: -55px;
         margin-left: 10px;
         width: 55px;
         height: 55px;
     }
-    .btn-explore{
+    .btn-explore {
         padding: 10px;
         width: 170px;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
     }
-    .digital-image img{
+    .digital-image img {
         width: 80vw;
-    }            
+    }
 }
-

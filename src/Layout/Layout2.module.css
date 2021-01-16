@@ -1,0 +1,459 @@
+@import "../assets/Fonts/fonts";
+@import "../assets/CSS/colors.css";
+
+.Layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.ContainerDiv {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SingleContainerDiv {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.Left,
+.Right {
+    width: 49.5%;
+}
+
+@media (max-width: 425px) {
+    .ContainerDiv {
+        flex-direction: column;
+    }
+    .Left,
+    .Right {
+        width: 100%;
+    }
+}
+
+.Home1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.Home1 h1 {
+    font-family: var(--aargau) !important;
+    /* font-size: 5rem; */
+    font-size: calc(2.2vw + 2.2vh + 2.2vmin);
+    color: var(--secondary-red);
+}
+.Home1 p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.Home1 span {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.Home1 a {
+    margin-top: 20px;
+    padding: 0.7rem 5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-purple);
+    position: absolute;
+    font-size: 1.1rem;
+    align-self: center;
+}
+.Home1 img {
+    position: absolute !important;
+    top: 13px !important;
+    width: 63px !important;
+    left: 10px !important;
+}
+
+.Home2 img {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.Services1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+}
+
+.Services1 h1 {
+    font-family: var(--aargau) !important;
+    font-size: calc(2.2vw + 2.2vh + 2.2vmin);
+    color: var(--secondary-red);
+    line-height: 1;
+}
+.Services1 p {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 0.7;
+}
+.Services1 span {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.Services1 a {
+    margin-top: 20px;
+    padding: 0.7rem 4rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-purple);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.Services1 img {
+    position: absolute;
+    top: 13px;
+    width: 63px;
+    left: 10px;
+}
+
+.Services2 {
+    margin-top: 60px;
+    min-width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.Services2_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    /* max-width: 400; */
+    background-color: white;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 12px;
+    padding: 3rem 0rem;
+    overflow: hidden;
+}
+
+.Services2_Container_Team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1 !important;
+}
+
+.Services2_Container_Team div {
+    width: 160px !important;
+    margin: 0 10px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.Services2_Container_Team div img {
+    width: 160px !important;
+    margin: 0 10px;
+    margin-top: 25px;
+}
+.Services2_Container_Team p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--primary-purple);
+    margin-top: 25px;
+}
+.Services2_Container_Team p:nth-child(3) {
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+
+    color: black;
+}
+.Services2_Container_Team p:nth-child(4) {
+    /* width: 60%; */
+    margin: 25px 0;
+}
+.Services2_Container_Team p:nth-child(4):before {
+    content: '"';
+}
+.Services2_Container_Team p:nth-child(4)::after {
+    content: '"';
+}
+
+.Services3 {
+    flex: 1;
+    display: flex;
+    width: 100%;
+}
+
+.Services3 {
+    flex-direction: column;
+}
+.Services3 h1 {
+    font-size: calc(2.2vw + 2.2vh + 2.2vmin);
+    color: var(--primary-purple);
+    line-height: 1;
+}
+.Services3 p {
+    font-size: 2.2rem;
+    color: var(--primary-red);
+    line-height: 0.2;
+    font-family: var(--great-day);
+}
+.Services3 span {
+    font-size: 0.8rem;
+    line-height: 1;
+    margin: 18px 0;
+}
+.Services3 a {
+    display: block;
+    align-self: start;
+    margin-top: 10px;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-purple);
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.TechStack_Container {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    /* min-width: 65%; */
+    /* max-width: 405px; */
+    /* border: 1px solid green; */
+    margin-bottom: 15px;
+}
+.TechStack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    width: 90px;
+    margin-right: 10px;
+    background: linear-gradient(180deg, rgba(244, 244, 244, 1) 0%, rgba(252, 252, 252, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #00000029;
+}
+.TechStack span {
+    margin: 10px 0 0 0;
+    font-size: 0.85rem;
+    text-align: center;
+    width: 100%;
+}
+.TechStack div {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TechStack div img {
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.TotalProjects {
+    background: rgb(42, 42, 113);
+    background: linear-gradient(180deg, rgba(42, 42, 113, 1) 0%, rgba(77, 13, 82, 1) 26%, rgba(176, 18, 24, 1) 100%);
+    color: white;
+}
+
+.TotalProjectsContainer {
+    display: flex;
+    justify-content: center;
+}
+.TotalProjectsContainer_Item {
+    margin: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+}
+
+.TotalProjectsContainer_Item p {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.TotalProjectsContainer_Item_Image {
+    width: 75px;
+}
+
+@media (max-width: 425px) {
+    .TotalProjectsContainer_Item {
+        margin: 15px 10px;
+        width: 95px;
+    }
+    .TotalProjectsContainer_Item_Image {
+        width: 50px;
+    }
+}
+
+.Contact1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+}
+.Contact1 h1,
+.Contact1 span {
+    font-family: var(--aargau) !important;
+    /* font-size: 5rem; */
+    font-size: calc(2.2vw + 2.2vh + 2.2vmin);
+    color: var(--secondary-red);
+}
+.Contact1 p {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.Form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Form a {
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-purple);
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: block;
+}
+
+.FormElement {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.FormElement input,
+.FormElement textarea {
+    display: block;
+    width: 100%;
+    padding: 0.8rem 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #707070;
+    font: inherit;
+}
+.FormElement p {
+    font-size: 0.85rem;
+    color: var(--primary-red);
+}
+
+.LogoFooter {
+    width: 25%;
+}
+
+@media (max-width: 425px) {
+    .LogoFooter {
+        width: 50%;
+    }
+}
+
+.Header {
+    background: rgb(42, 42, 113);
+    background: linear-gradient(90deg, rgba(42, 42, 113, 1) 0%, rgba(77, 13, 82, 1) 26%, rgba(176, 18, 24, 1) 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderContainer {
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(42, 42, 113);
+    background: linear-gradient(90deg, rgba(42, 42, 113, 1) 0%, rgba(77, 13, 82, 1) 26%, rgba(176, 18, 24, 1) 100%);
+    z-index: 1;
+}
+
+.HeaderContainerLogo {
+    width: 150px;
+}
+.HeaderContainerLogo img {
+    width: 100%;
+}
+.HeaderBurger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.HeaderBurger span {
+    width: 22px;
+    margin: 2px 0;
+    height: 3px;
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+.HeaderMenu {
+    z-index: 0;
+    color: white;
+    padding: 0rem;
+    /* display: none; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 0px;
+    transition: all 0.3s ease;
+}
+.HeaderMenu a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px 0;
+    font-weight: bold;
+    color: white;
+}
+
+.height {
+    padding: 1rem;
+    display: flex;
+    height: 230px;
+}
+
+.middleDiv,
+.topDiv,
+.bottomDiv {
+    transition: all 0.2s ease;
+}
+
+.middleDiv {
+    display: none;
+}
+
+.topDiv {
+    transform: rotate(45deg) translate(0px, 6px);
+}
+
+.bottomDiv {
+    transform: rotate(-45deg) translate(-1px, -5px);
+}

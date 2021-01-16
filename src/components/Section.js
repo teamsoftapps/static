@@ -5,7 +5,7 @@ import Digital from "../images/Digital.png";
 
 function Section() {
     return (
-        <div class="container" id="home">
+        <div id="home" class="container">
             <div class="row">
                 <div class="digitialization">
                     <h1 class="digi-head">Digitialization</h1>

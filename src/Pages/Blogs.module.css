@@ -1,0 +1,43 @@
+.Blogs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 66px;
+    align-items: center;
+}
+
+.BlogHeader{
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.BlogHeaderOverlay{
+    height: 100%;
+    width: 100%; 
+    background: rgb(44,40,111);
+    background: linear-gradient(90deg, rgba(44,40,111,0.55) 0%, rgba(173,18,25,0.55) 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogHeaderHeading {
+    width: 60%;
+    padding: 1rem 2rem;
+}
+.BlogHeaderHeading  h1{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.Blog {
+    padding: 2rem 3rem;
+    text-align: center;
+    width: 65%;
+}
+
+@media (max-width:1000px){
+
+}
